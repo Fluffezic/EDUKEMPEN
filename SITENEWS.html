@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>News</title>
+    <style>
+          body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Light Blue */
+        }
+
+        header {
+            background-image: url('https://www.freeiconspng.com/thumbs/news-icon/news-icon-18.png'); /* Add your image URL */
+            background-size: cover;
+                background-size: 100% 100%;
+    background-repeat: no-repeat;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        header .branding {
+            display: flex;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #ffffff;
+            margin-left: 20px;
+        }
+
+        header .social-links {
+            display: flex;
+            align-items: center;
+        }
+
+        header .social-links a {
+            margin-right: 10px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        header .search-box {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        nav {
+            background-color: #90ee90; /* Light Green */
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        .content-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .content {
+            flex: 3;
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar {
+            flex: 1;
+        }
+
+        .sidebar img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #90ee90; /* Light Green */
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Media query to hide the sidebar on smaller viewports */
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="branding">
+            <h1 style="color:black">FUR NEWS</h1>
+        </div>
+        <div class="social-links">
+            <a style="color:black" href="#">Facebook</a>
+            <a style="color:black"href="#">Twitter</a>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="SITEHOME.html">Home</a></li>
+            <li><a href="SITENEWS.html">News</a></li>
+            <li><a href="SITECONTACT.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="content-container">
+        <div class="content">
+            <h2>News</h2>
+            <ul>
+                <li><a href="ARTICLE1.html">Syrian kids dance with joy after being placed in same hotel as Furries <br></a><img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/03/10/16/dance1.jpg?quality=75&width=640&auto=webp"></li>
+                <li><a href="ARTICLE2.html">Netflix viewers in mix-up after misreading Tyson Fury documentary name<br></a> <img src="https://static.independent.co.uk/2023/07/20/09/newFile-2.jpg?quality=75&width=640&auto=webp"></li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Yenthe Laurijssens. All rights reserved.
+    </footer>
+</body>
+</html>
